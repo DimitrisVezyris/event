@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+body{
+    font-family: 'Shippori Antique', sans-serif;
+    background-size: 105% !important;
+    background-repeat: no-repeat !important;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.top p{
+    font-size: 24px;
+    color: antiquewhite;
+    margin: 5px;
+}
+
+.top .a1{
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.tickets{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+}
+
+.tickets a{
+    color: white;
+    text-decoration: none;
+}
+
+.tickets button{
+    font-size: 56px;
+    color: white;
+    background-color: rgb(163, 20, 49);
+    border-color: rgb(163, 20, 49);
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.tickets button:hover{
+    background-color: rgba(218, 0, 44, 0.911);
+    box-shadow: 0 12px 16px 0 rgb(95, 0, 19), 0 17px 50px 0 rgb(95, 0, 19);
+}

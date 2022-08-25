@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+body{
+    background-color: #333;
+    color: antiquewhite;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 1vw;
+}
+
+h1{
+    color: rgb(163, 20, 49);
+}
+
+input{
+    background-color: #333;
+    color: antiquewhite;
+    font-size: 1vw;
+}
+
+::placeholder{
+    color: antiquewhite;
+}
